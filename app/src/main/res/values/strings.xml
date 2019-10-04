@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">GiuaKyNhom4</string>
+
+    <string-array name="sort_type">
+        <item>BubbleSort</item>
+        <item>Selection Sort</item>
+        <item>Recursive Bubble Sort</item>
+        <item>Insertion Sort</item>
+        <item>Recursive Insertion Sort</item>
+        <item>Merge Sort</item>
+        <item>Iterative Merge Sort</item>
+        <item>Quick Sort</item>
+        <item>Heap Sort</item>
+        <item>Counting Sort</item>
+        <item>Radix Sort</item>
+        <item>ShellSort</item>
+        <item>Pigeonhole Sort</item>
+        <item>Cycle Sort</item>
+        <item>Cocktail Sort</item>
+        <item>Binary Insertion Sort</item>
+    </string-array>
+
+</resources>
