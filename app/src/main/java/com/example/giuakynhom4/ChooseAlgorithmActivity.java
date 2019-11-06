@@ -10,10 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import com.example.giuakynhom4.SortAlgorithms.Sort;
 
 public class ChooseAlgorithmActivity extends AppCompatActivity {
 
@@ -26,7 +23,6 @@ public class ChooseAlgorithmActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choose_sort_type);
-
 
         String[] lst = getResources().getStringArray(R.array.sort_type);
         algAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, lst);

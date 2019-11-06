@@ -1,11 +1,11 @@
-package com.example.giuakynhom4;
+package com.example.giuakynhom4.SortAlgorithms;
 
-public class RecursiveBubbleSort implements SortInterface {
+public class RecursiveInsertionSort implements SortInterface {
 
-    public RecursiveBubbleSort() {
+    public RecursiveInsertionSort() {
     }
 
-    static void insertionSortRecursive(int arr[], int n) {
+    private void insertionSortRecursive(int arr[], int n) {
         // Base case
         if (n <= 1)
             return;

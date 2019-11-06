@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
+import com.example.giuakynhom4.SortAlgorithms.Sort;
+
 public class ResultActivity extends AppCompatActivity {
 
     TextView lblKQ, lblTitle;

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GiuaKyNhom4</string>
+    <string name="app_name">Group 4 Sort algorithms</string>
 
     <string-array name="sort_type">
         <item>BubbleSort</item>

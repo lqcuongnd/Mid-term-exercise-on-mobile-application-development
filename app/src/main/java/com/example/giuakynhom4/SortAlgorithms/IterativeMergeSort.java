@@ -1,4 +1,4 @@
-package com.example.giuakynhom4;
+package com.example.giuakynhom4.SortAlgorithms;
 
 public class IterativeMergeSort implements SortInterface {
 
